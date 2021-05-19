@@ -1,0 +1,128 @@
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+#device th, #deviceH {
+    background-color: darkorchid;
+}
+
+#msg th, #msgH {
+    background-color: #7A4AD9;
+}
+
+#active_msg th, #activeH {
+    background-color: #5C61E6;
+}
+
+#transLogs th, #logH {
+    background-color: #3D79F2;
+}
+
+#chartH {
+    background-color: dodgerblue;
+}
+
+th {
+    padding: 10px;
+    color: white;
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: gainsboro;
+}
+
+body{
+    margin: 0px;
+}
+
+.body1 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.head1{
+    text-align: center;
+    color: white;
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    background-color: dodgerblue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, dodgerblue, darkorchid);
+    display:inline-block;
+    width: 100%;
+}
+
+#logout {
+    float: right;
+    margin: 0 10px;
+    padding: 3px 10px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+#logout:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.tableHeader {
+    width: 100%;
+}
+
+.tableHeader button{
+    width: 100%;
+    text-align: left;
+    display: block;
+    color: white;
+    border: none;
+    outline:none;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 10px 0px;
+}
+
+.tableHeader button:hover {
+    cursor: pointer;
+}
+
+#tableDevices, #tableMsg, #tableActive, #tableLogs, #tableCharts {
+    display: none;
+    padding: 5px 0 10px 10px;
+    border: 2px solid dimgray;
+    border-top: 0;
+}
+
+#chartHour, #chartMsg, #chartTraffic {
+    display: none;
+    padding: 5px 0 10px 10px;
+    border: 2px solid dimgray;
+    border-top: 0;
+}
+
+#tableCharts {
+    padding-right: 10px;
+}
+
+#hourH {
+    background-color: midnightblue;
+}
+
+#msgFH {
+    background-color: #1C55B8;
+}
+
+#trafficH {
+    background-color: dodgerblue;
+}
